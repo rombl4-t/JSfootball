@@ -1,0 +1,28 @@
+.football {
+  position: relative;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  overflow: hidden;
+}
+
+#goal {
+  position: absolute;
+  top: 0;
+  left: 120%;
+  font-size: 100vh;
+  color: yellow;
+  font-family: Arial;
+}
+
+.field {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.ball {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100px;
+  height: 100px;
+}
